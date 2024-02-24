@@ -1,4 +1,6 @@
-# DIP721 NFT container
+# ConfirmD
+
+ConfirmD is a decentralized app that aims to prevent disinformation by confirming news turning them into NFTs.
 
 This example demonstrates implementing an NFT canister. NFTs (non-fungible tokens) are unique tokens with arbitrary
 metadata, usually an image of some kind, to form the digital equivalent of trading cards. There are a few different
@@ -7,8 +9,6 @@ NFT standards for the Internet Computer (e.g [EXT](https://github.com/Toniq-Labs
 The canister is a basic implementation of the standard, with support for the minting, burning, and notification interface extensions.
 
 ## Overview
-
-This project aims to prevent disinformation by confirming news turning them into NFTs.
 
 The NFT canister is not very complicated since the [DIP-721](https://github.com/Psychedelic/DIP721) standard specifies most [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations,
 but we can still use it to explain three important concepts concerning dapp development for the Internet Computer:
